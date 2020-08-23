@@ -10,7 +10,11 @@ import styles from './no-component-approach.module.css';
 function NoComponentApproach() {
   return (
     <Layout>
-      <a className={styles.SeeCodeContainer}>
+      <a
+        target='_blank'
+        href='https://github.com/ivanms1/formik-field-components/blob/master/pages/no-component-approach.tsx'
+        className={styles.SeeCodeContainer}
+      >
         <img
           src='/assets/github-logo.png'
           className={styles.GithubLogo}

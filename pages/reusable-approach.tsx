@@ -15,7 +15,11 @@ function ReusableApproach() {
   const [seeComponent, setSeeComponent] = useState(false);
   return (
     <Layout>
-      <a className={styles.SeeCodeContainer}>
+      <a
+        target='_blank'
+        href='https://github.com/ivanms1/formik-field-components/blob/master/pages/reusable-approach.tsx'
+        className={styles.SeeCodeContainer}
+      >
         <img
           src='/assets/github-logo.png'
           className={styles.GithubLogo}

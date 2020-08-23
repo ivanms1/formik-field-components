@@ -11,7 +11,11 @@ import styles from './component-approach.module.css';
 function ComponentsApproach() {
   return (
     <Layout>
-      <a className={styles.SeeCodeContainer}>
+      <a
+        target='_blank'
+        href='https://github.com/ivanms1/formik-field-components/blob/master/pages/component-approach.module.css'
+        className={styles.SeeCodeContainer}
+      >
         <img
           src='/assets/github-logo.png'
           className={styles.GithubLogo}
