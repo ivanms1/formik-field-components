@@ -2,7 +2,7 @@ import { useField } from 'formik';
 import { FormGroup, InputGroup } from '@blueprintjs/core';
 
 function UseFieldInput({ label, type = 'text', labelInfo, ...props }) {
-  const [field, meta, helpers] = useField(props);
+  const [field, meta] = useField(props.name);
   return (
     <FormGroup
       label={label}
