@@ -53,6 +53,7 @@ function ReusableApproach() {
                 <div className={styles.FieldContainer}>
                   <UseFieldInput
                     id='email'
+                    type='email'
                     className={styles.Field}
                     labelInfo='(required)'
                     name='email'

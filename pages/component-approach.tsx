@@ -53,7 +53,7 @@ function ComponentsApproach() {
                         <InputGroup
                           value={field.value}
                           onChange={(e) =>
-                            form.setFieldValue('name', e.target.value)
+                            form.setFieldValue(field.name, e.target.value)
                           }
                           intent={
                             meta.touched && meta.error ? 'danger' : 'none'
@@ -76,7 +76,7 @@ function ComponentsApproach() {
                         <InputGroup
                           value={field.value}
                           onChange={(e) =>
-                            form.setFieldValue('email', e.target.value)
+                            form.setFieldValue(field.name, e.target.value)
                           }
                           intent={
                             meta.touched && meta.error ? 'danger' : 'none'

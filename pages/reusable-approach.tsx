@@ -54,6 +54,7 @@ function ReusableApproach() {
                 <div className={styles.FieldContainer}>
                   <Field
                     id='email'
+                    type='email'
                     className={styles.Field}
                     name='email'
                     component={CustomInput}
