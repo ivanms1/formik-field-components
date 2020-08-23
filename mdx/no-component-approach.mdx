@@ -1,0 +1,35 @@
+```js
+    <Form className={styles.Form}>
+      <div className={styles.Fields}>
+        <div className={styles.FieldContainer}>
+          <label htmlFor='name'>Name</label>
+          <Field
+            className={styles.Field}
+            name='name'
+            placeholder='Your Name'
+          />
+          <ErrorMessage
+            component='span'
+            className={styles.ErrorMessage}
+            name='name'
+          />
+        </div>
+        <div className={styles.FieldContainer}>
+          <label htmlFor='email'>Email</label>
+          <Field
+            className={styles.Field}
+            name='email'
+            placeholder='Your Email'
+          />
+          <ErrorMessage
+            component='span'
+            className={styles.ErrorMessage}
+            name='email'
+          />
+        </div>
+      </div>
+      <button type='submit' className={styles.SubmitButton}>
+        Submit
+      </button>
+    </Form>
+```

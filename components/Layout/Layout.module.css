@@ -1,0 +1,65 @@
+.AppContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f4f4;
+  margin-left: 10rem;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Sidebar {
+  background-color: white;
+  position: fixed;
+  padding: 0.5rem 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  justify-content: space-around;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Link {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .AppContainer {
+    margin-left: auto;
+  }
+  .Sidebar {
+    background-color: white;
+    position: fixed;
+    padding: 0;
+    flex-direction: row;
+    min-height: auto;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    width: 5rem;
+  }
+
+  .Container {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}

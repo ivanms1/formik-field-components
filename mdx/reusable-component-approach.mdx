@@ -1,0 +1,37 @@
+```
+<Form className={styles.Form}>
+  <div className={styles.Fields}>
+    <div className={styles.FieldContainer}>
+      <Field
+        id='name'
+        className={styles.Field}
+        name='name'
+        placeholder='Jhon Doe'
+        component={CustomInput}
+        labelInfo='(required)'
+        label='Name'
+      />
+    </div>
+    <div className={styles.FieldContainer}>
+      <Field
+        id='email'
+        className={styles.Field}
+        name='email'
+        component={CustomInput}
+        labelInfo='(required)'
+        label='Email'
+        placeholder='email@mail.com'
+      />
+    </div>
+  </div>
+  <Button
+    type='submit'
+    className={styles.SubmitButton}
+    intent='primary'
+    large
+    fill
+  >
+    Submit
+  </Button>
+</Form>
+```

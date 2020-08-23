@@ -1,0 +1,88 @@
+.SeeCodeContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1.5rem;
+  right: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.SeeCode {
+  margin-right: 1rem;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.GithubLogo {
+  height: 3rem;
+}
+
+.ExampleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 30rem;
+  padding: 4rem 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.FieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  min-width: 20rem;
+}
+
+.Field {
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.SubmitButton {
+  font-size: 1.2rem;
+  max-width: 8rem;
+  cursor: pointer;
+}
+
+.SeeComponentButton {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .SeeCodeContainer {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .GithubLogo {
+    height: 2rem;
+  }
+  .Title {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .Form {
+    width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+  }
+}

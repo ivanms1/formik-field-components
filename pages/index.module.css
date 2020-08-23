@@ -1,0 +1,55 @@
+.SeeCodeContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1.5rem;
+  right: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.SeeCode {
+  margin-right: 1rem;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.GithubLogo {
+  height: 3rem;
+}
+
+.PageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.Title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.Text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Credits {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .SeeCodeContainer {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .GithubLogo {
+    height: 2rem;
+  }
+
+  .PageContainer {
+    padding: 1rem;
+  }
+}
