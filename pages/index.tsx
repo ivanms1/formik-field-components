@@ -11,7 +11,11 @@ export default function Home() {
         <title>Forms with Formik</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <a className={styles.SeeCodeContainer}>
+      <a
+        target='_blank'
+        href='https://github.com/ivanms1/formik-field-components'
+        className={styles.SeeCodeContainer}
+      >
         <img
           src='/assets/github-logo.png'
           className={styles.GithubLogo}
