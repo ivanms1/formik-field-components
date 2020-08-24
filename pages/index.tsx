@@ -26,7 +26,12 @@ export default function Home() {
         <h1 className={styles.Title}>Forms with Formik</h1>
         <p className={styles.Text}>
           This is a demo site for the{' '}
-          <a href='#'>Creating Reusable Input Components with Formik</a>{' '}
+          <a
+            href='https://ivanms1.hashnode.dev/creating-reusable-input-components-with-formik-cke82ho6a02hzyjs1aisachpo'
+            target='_blank'
+          >
+            Creating Reusable Input Components with Formik
+          </a>{' '}
           tutorial, where we talk about the different ways you can handle inputs
           in Formik.
         </p>
